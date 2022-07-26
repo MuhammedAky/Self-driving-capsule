@@ -17,7 +17,6 @@ function userInput(obj){
             obj.action = true;
         }
     });
-    
     canvas.addEventListener('keyup', function(e){
         if(e.code === "ArrowLeft"){
             obj.left = false;
@@ -34,5 +33,5 @@ function userInput(obj){
         if(e.code === "Space"){
             obj.action = false;
         }
-    });    
+    });
 }

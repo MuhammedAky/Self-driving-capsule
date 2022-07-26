@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        #canvas {
+        #canvas{
             border: 1px solid black;
             display: block;
             margin: 0 auto;
@@ -15,10 +14,22 @@
     <title>Game Template</title>
 </head>
 <body>
-    <canvas id="canvas" tabindex="0" width="640" height="480"></canvas>
+    <div style="float: left; border: 1px solid black">
+        <button id="relaunch">New Start</button>
+        <br/>
+        <button id="nextGen">Next Generation</button>
+        <br/>
+        <div id="genData"></div>
+    </div>
+
+    <canvas id="canvas" tabindex=0 width="640" height="480"></canvas>
 
     <script src="mocorgo.js"></script>
     <script src="userInput.js"></script>
+    <script src="Perceptron.js"></script>
+    <script src="NeuralNetwork.js"></script>
+    <script src="SmartCaps.js"></script>
+    <script src="SmartCapsPop.js"></script>
     <script src="game_template.js"></script>
 </body>
 </html>
